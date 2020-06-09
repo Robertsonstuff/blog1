@@ -85,6 +85,33 @@ article {
 	padding: 5px 150px 30px 150px;
 }
 
+/* Slide show */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.mySlides {
+	display: none;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
 
 .con{
 	background: #ffffff;
@@ -93,9 +120,6 @@ article {
 	border-color: #050b33;
 	margin: 10px;
 	padding: 40px;
-}
-
-	
 }
 
 aside { 
