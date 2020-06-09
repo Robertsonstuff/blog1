@@ -57,7 +57,53 @@
 	</a>
 		<a href="https://music.apple.com/us/album/i-dont-trust-myself-single/1497736442?app=itunes&ign-mpt=uo%3D4"><img src="images/itunes.icon.png" alt="itunes" style="width:42px;height:42px;border:0"></a>
 		<p class="preface">Welcome to my journey as a Musician. Particularly, a musician chasing a balance in life. 15+years of playing professionally has taught me so much about music, business and life. Why then, do I feel like I'm only scratching the surface? This is a platform of discovery, insights, stories and all the interesting nuggets in between. Through my experience, my only goal is for YOU to learn something that helps you in your journey in music and in life.</p></nav>
+<!--slide show container-->		
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 4</div>
+			<img src="images/stick2.jpg" alt="stick2" style="width:100%">
+			<div class="text">stick</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numertext">2 / 4</div>
+			<img src="winter'sUnderground.2.png" style="width:100%">
+			<div class="text">wintersunderground</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 4</div>
+			<img src="octoberfest.pic.jpg" style="width:100%">
+			<div class="text">octoberfest</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 4</div>
+			<img src="mic.drums.jpg" style="width:100%">
+			<div class="text">mic</div>
+		</div>
+<!--slide show container html-->
+<script>
+	var slideIndex = 0;
+	showSlides();
 	
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	  setTimeout(showSlides, 3000); // Change image every 3 seconds
+	}
+	</script>
 		
 	<div class="container1">
 	<img src="images/stick2.jpg" alt="stick2">
