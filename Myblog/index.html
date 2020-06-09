@@ -67,19 +67,19 @@
 
 		<div class="mySlides fade">
 			<div class="numertext">2 / 4</div>
-			<img src="winter'sUnderground.2.png" style="width:100%">
+			<img src="images/winter'sUnderground.2.png" style="width:100%">
 			<div class="text">wintersunderground</div>
 		</div>
 
 		<div class="mySlides fade">
 			<div class="numbertext">3 / 4</div>
-			<img src="octoberfest.pic.jpg" style="width:100%">
+			<img src="images/octoberfest.pic.jpg" style="width:100%">
 			<div class="text">octoberfest</div>
 		</div>
 
 		<div class="mySlides fade">
 			<div class="numbertext">4 / 4</div>
-			<img src="mic.drums.jpg" style="width:100%">
+			<img src="images/mic.drums.jpg" style="width:100%">
 			<div class="text">mic</div>
 		</div>
 <!--slide show container html-->
@@ -90,8 +90,14 @@
 	function showSlides() {
 	  var i;
 	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
 	  for (i = 0; i < slides.length; i++) {
 		slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
 	  }
 	  slides[slideIndex-1].style.display = "block";  
 	  dots[slideIndex-1].className += " active";
