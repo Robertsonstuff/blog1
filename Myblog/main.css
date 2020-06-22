@@ -46,7 +46,7 @@ nav ul li {
 	border: 2px;
 	border-style: solid;
 	border-color: #050b33;
-	box-shadow: 0 9px #999;
+	box-shadow: 0 5px #999;
 	cursor: pointer;
 	color:  #f2f3f4;
 	display: inline-block;
@@ -58,7 +58,7 @@ nav ul li {
 
 nav ul li:active {
 	background-color: #3e8e41;
-	box-shadow: 0 5px #666;
+	box-shadow: 0 3px #666;
 	transform: translateY(4px);
 }
 
@@ -168,7 +168,7 @@ aside {
 .button1 {
 	background:   #ba4a00;
 	border-radius: 3px;
-	box-shadow: 0 5px #999;
+	box-shadow: 0 3px #999;
 	color:  #f2f3f4;
 	cursor: pointer;
 	font-size: 16px;
@@ -178,6 +178,6 @@ aside {
 
 .button1:active {
 	background-color: #3e8e41;
-	box-shadow: 0 5px #666;
+	box-shadow: 0 3px #666;
 	transform: translateY(4px);
 }
