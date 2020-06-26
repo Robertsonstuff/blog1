@@ -50,7 +50,7 @@ nav ul li {
 	cursor: pointer;
 	color:  #f2f3f4;
 	display: inline-block;
-	font-size: 28px;
+	font-size: 32px;
 	margin: 0px;
 	padding: 10px 45px 10px 45px;
 	width: 7.33333%;
@@ -63,7 +63,7 @@ nav ul li:active {
 }
 
 nav ul li a {
-	color: #050b33;
+	color: #f2f3f4;
 }
 
 
