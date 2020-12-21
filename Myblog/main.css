@@ -1,0 +1,265 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial;
+}
+#p01 {
+	color:  #050b33;
+	font-family: 'Permanent Marker', cursive;	
+}
+body {
+	padding: 10px;
+	background: #f1f1f1;
+}
+  
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+	text-align: center;
+	padding: 10px;
+	background: url(images/Profile_photo.jpg);
+    position: -webkit-sticky;
+	position:sticky;
+	animation: flash linear 2s;
+	-webkit-animation-name: header;
+	-webkit-animation-duration: 1.5s;
+	animation-name: header;
+	animation-duration: 1.5s;
+}
+
+@keyframes header {
+    0% { opacity: 1; }
+    30% { opacity: 0.1; }
+    100% { opacity: 1; }
+    0% { opacity: 1; }
+    30% { opacity: 0.1; }
+    100% { opacity: 1; }
+} 
+	
+.header h1 {
+	font-size: 50px;
+	color: #050b33;
+}
+	
+	/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+	background-color: #050b33;
+	position:sticky;
+	top: 200px;
+	animation: href 2s ease-in
+}
+
+@keyframes topnav {
+0% { transform: translateX(+300px); }
+70% { transform: translateX(-10px); }
+80% { transform: translateX(5px); }
+100% { transform: translateX(0px); }
+}
+	
+	/* Style the topnav links */
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+	
+	/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav1 {
+    overflow: hidden;
+	background-color: #050b33;
+	top: 100px;
+	animation: href 2s ease-in
+}
+
+@keyframes topnav1 {
+0% { transform: translateX(+300px); }
+70% { transform: translateX(-10px); }
+80% { transform: translateX(5px); }
+100% { transform: translateX(0px); }
+}
+	
+	/* Style the topnav links */
+.topnav1 a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+	
+	/* Change color on hover */
+.topnav1 a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+	/* Slide show */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.mySlides {
+	display: none;
+}
+
+  
+  /* Caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+  
+  .active, .dot:hover {
+	background-color: #717171;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+	
+	/* Create two unequal columns that floats next to each other */
+	/* Left column */
+
+
+.leftcolumn {   
+    float: left;
+	width: 65%;
+}
+	
+	/* Right column */
+.rightcolumn {
+    float: right;
+    width: 35%;
+	background-color: #f1f1f1;
+	padding-left: 10px;
+}
+	
+
+
+/* Add a card effect for articles */
+.card {
+	background-color: white;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+	/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.icons {
+	float: center;
+}
+	
+	/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+	
+	/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+ 	width: 100%;
+	padding: 0;
+  }
+}
+	
+	/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+	float: none;
+	width: 100%;
+  }
+}
+
+/*blog posts*/
+.container2{
+	background: #ffffff;
+	border: 2px;
+	border-style: solid;
+	border-color: #050b33;
+	margin: 10px;
+	padding: 40px;
+}
+a:link {
+	color: #050b33;
+	font-size: 20px;
+	text-align: center;
+}
+
+.icons {
+    padding: 30px;
+	text-align: center;
+	padding: 10px;
+    position: -webkit-sticky;
+	position:sticky;
+	animation: flash linear 2s;
+	-webkit-animation-name: header;
+	-webkit-animation-duration: 1.5s;
+	animation-name: header;
+	animation-duration: 1.5s;
+}
+
+@keyframes icons {
+    0% { opacity: 1; }
+    30% { opacity: 0.1; }
+    100% { opacity: 1; }
+    0% { opacity: 1; }
+    30% { opacity: 0.1; }
+    100% { opacity: 1; }
+} 
