@@ -16,7 +16,7 @@ body {
     padding: 30px;
 	text-align: center;
 	padding: 10px;
-	background: url(images/Profile_photo.jpg);
+	background: #ffffff;
     position: -webkit-sticky;
 	position:sticky;
 	animation: flash linear 2s;
