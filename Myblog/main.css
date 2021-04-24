@@ -299,7 +299,7 @@ a:link {
 
 .img-container {
   position: relative;
-  width: 410px;
+  width: 80%;
 }
 
 .img-container::after {
@@ -317,7 +317,7 @@ a:link {
 .img-container img {
   border-radius: 50%;
   object-fit: cover;
-  height: 410px;
+  height: 80%;
   width: inherit;
   position: left;
   bottom: 0;
