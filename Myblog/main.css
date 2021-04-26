@@ -291,7 +291,7 @@ a:link {
   border-radius: 15px;
   box-shadow: 0 20px 20px 0 rgba(181, 190, 248, 0.6);
   display: flex;
-  padding: 20px 30px;
+  padding: 7px 15px;
   position: relative;
   margin: 40px 0;
   z-index: 10;
@@ -310,8 +310,8 @@ a:link {
   position: absolute;
   bottom: 100%;
   left: 50%;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   transform: translate(-50%, 50%);
 }
 
