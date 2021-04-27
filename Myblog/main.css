@@ -288,7 +288,7 @@ a:link {
   font-family: 'Lato', sans-serif;
   margin: 0;
   color: rgb(235, 237, 253);
-  Width : 540px;
+  Width : 740px;
 }
 
 .music-container {
@@ -300,7 +300,7 @@ a:link {
   position: relative;
   margin: 20px 0;
   z-index: 10;
-  Width : 500px;
+  Width : 600px;
 }
 
 .img-container {
@@ -317,7 +317,7 @@ a:link {
 .img-container img {
   border-radius: 50%;
   object-fit: cover;
-  Width : 300px;
+  Width : 600px;
   position: left;
   bottom: 0;
   left: 0;
