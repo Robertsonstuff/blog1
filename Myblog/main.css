@@ -280,7 +280,7 @@ a:link {
     rgba(2, 4.3, 20, 1) 23.8%,
     rgba(2, 4.3, 20, 1) 92%
   );
-  height: 40vh;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -296,18 +296,16 @@ a:link {
   border-radius: 15px;
   box-shadow: 0 20px 20px 0 rgba(181, 190, 248, 0.6);
   display: flex;
-  height: 40vh;
   padding: 7px 15px;
   position: relative;
   margin: 20px 0;
   z-index: 10;
-  Width : calc(90% - 30px);
+  width: inherit;
 }
 
 .img-container {
   position: relative;
-  height: 40vh;
-  Width : calc(90% - 30px);
+  width: inherit;
 }
 
 .img-container::after {
