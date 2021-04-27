@@ -288,7 +288,7 @@ a:link {
   font-family: 'Lato', sans-serif;
   margin: 0;
   color: rgb(235, 237, 253);
-  Width : calc(90% - 30px);
+  Width : 300px;
 }
 
 .music-container {
@@ -300,12 +300,12 @@ a:link {
   position: relative;
   margin: 20px 0;
   z-index: 10;
-  Width : calc(90% - 30px);
+  Width : 300px;
 }
 
 .img-container {
   position: relative;
-  Width : calc(90% - 30px);
+  Width : 300px;
 }
 
 .img-container::after {
@@ -318,12 +318,11 @@ a:link {
 .img-container img {
   border-radius: 50%;
   object-fit: cover;
-  Width : calc(90% - 30px);
+  Width : 300px;
   position: left;
   bottom: 0;
   left: 0;
   animation: rotate 150s linear infinite;
-
   animation-play-state: paused;
 }
 
