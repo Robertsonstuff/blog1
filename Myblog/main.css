@@ -314,11 +314,11 @@ a:link {
   background-color: #fff;
   border-radius: 50%;
   position: absolute;
-  bottom: 100%;
+   /*bottom: 100%;
   left: 50%;
   width: 10px;
   height: 10px;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);*/
 }
 
 .img-container img {
