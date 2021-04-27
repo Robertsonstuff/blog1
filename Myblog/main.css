@@ -305,7 +305,6 @@ a:link {
 
 .img-container {
   position: relative;
-  Width : 500px;
 }
 
 .img-container::after {
@@ -318,7 +317,7 @@ a:link {
 .img-container img {
   border-radius: 50%;
   object-fit: cover;
-  Width : 500px;
+  Width : 300px;
   position: left;
   bottom: 0;
   left: 0;
