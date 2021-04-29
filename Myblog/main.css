@@ -322,6 +322,7 @@ a:link {
 .img-container img {
   border-radius: 50%;
   object-fit: cover;
+  height: 310px;
   Width : inherit;
   position: left;
   bottom: 0;
