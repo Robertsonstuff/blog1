@@ -314,6 +314,9 @@ a:link {
   left: 50%;
   border-radius: 50%;
   position: absolute;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, 50%);
 }
 
 .img-container img {
