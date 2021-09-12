@@ -172,13 +172,13 @@ body {
 
 .leftcolumn {   
     float: left;
-	width: 65%;
+	width: 50%;
 }
 	
 	/* Right column */
 .rightcolumn {
     float: right;
-    width: 35%;
+    width: 50%;
 	background-color: #f1f1f1;
 	padding-left: 10px;
 }
