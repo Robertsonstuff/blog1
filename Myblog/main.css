@@ -211,7 +211,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/sunday_waits_ep.jpg)
+  Background-image: url(images/aristocrats_trio.jpg)
 }
 .rightcolumn .card2 {
   position: relative; /* Position the background text */
@@ -221,7 +221,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/foo_fighters.jpg)
+  Background-image: url(images/chartbusters_later.jpg)
 }
 .leftcolumn .card2 {
   position: relative; /* Position the background text */
@@ -241,7 +241,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/chartbusters_later.jpg)
+  Background-image: url(images/herratik_album.jpg)
 }
 .leftcolumn .card3 {
   position: relative; /* Position the background text */
@@ -261,7 +261,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/herratik_album.jpg)
+  Background-image: url(images/katie_whyte_ep.jpg)
 }
 .leftcolumn .card4 {
   position: relative; /* Position the background text */
@@ -281,7 +281,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/katie_whyte_ep.jpg)
+  Background-image: url(images/fk_ep2.jpg)
 }
 .leftcolumn .card5 {
   position: relative; /* Position the background text */
@@ -301,7 +301,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/fk_ep2.jpg)
+  Background-image: url(images/foo_fighters.jpg)
 }
 .leftcolumn .card6 {
   position: relative; /* Position the background text */
@@ -312,7 +312,6 @@ body {
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/winter_sunderground__rjbIu.jpg)
-}
 
 	/* Clear floats after the columns */
 .row:after {
