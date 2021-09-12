@@ -280,7 +280,7 @@ a:link {
     rgba(2, 4.3, 20, 1) 23.8%,
     rgba(2, 4.3, 20, 1) 92%
   );
-  height: 45vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -288,7 +288,6 @@ a:link {
   font-family: 'Lato', sans-serif;
   margin: 0;
   color: rgb(235, 237, 253);
-  Width : 740px;
 }
 
 .music-container {
@@ -296,24 +295,24 @@ a:link {
   border-radius: 15px;
   box-shadow: 0 20px 20px 0 rgba(181, 190, 248, 0.6);
   display: flex;
-  padding: 7px 15px;
+  padding: 20px 30px;
   position: relative;
-  margin: 20px 0;
+  margin: 100px 0;
   z-index: 10;
-  Width : 600px;
 }
 
 .img-container {
   position: relative;
+  width: 410px;
 }
 
 .img-container::after {
   content: '';
   background-color: #fff;
-  bottom: 50%;
-  left: 50%;
   border-radius: 50%;
   position: absolute;
+  bottom: 50%;
+  left: 50%;
   width: 20px;
   height: 20px;
   transform: translate(-50%, 50%);
@@ -322,12 +321,13 @@ a:link {
 .img-container img {
   border-radius: 50%;
   object-fit: cover;
-  height: 310px;
-  Width : inherit;
+  height: 410px;
+  width: inherit;
   position: left;
   bottom: 0;
   left: 0;
   animation: rotate 150s linear infinite;
+
   animation-play-state: paused;
 }
 
