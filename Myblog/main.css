@@ -187,9 +187,15 @@ body {
 
 /* Add a card effect for articles */
 .card {
-	background-color: white;
-	padding: 10px;
-	margin-top: 10px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  position: relative; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
 }
 
 .rightcolumn .card1 {
