@@ -341,7 +341,7 @@ body {
 	
 	/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
+    .leftcolumn, .rightcolumn, .pg, .music-container, .con container2, .card, .row  {
  	width: 100%;
 	padding: 0;
   }
@@ -349,7 +349,7 @@ body {
 	
 	/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
-    .topnav a, .PG, .music-container, .con container2, .card, .row{
+    .topnav a, .pg, .music-container, .con container2, .card, .row{
 	float: none;
 	width: 100%;
   }
