@@ -181,7 +181,10 @@ body {
     width: 45%;
 }
 	
-
+.row {
+    float: center;
+    width: 80%;
+}
 
 /* Add a card effect for articles */
 .card {
@@ -353,7 +356,7 @@ body {
 }
 
 /*blog posts*/
-.container2{
+.con container2{
 	background: #ffffff;
 	border: 2px;
 	border-style: solid;
