@@ -171,15 +171,17 @@ body {
 
 
 .leftcolumn {   
+    index-z: 1;
     float: left;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    width: 45%;
+    margin 20%;
 }
 	
 	/* Right column */
 .rightcolumn {
+    index-z: 2;
     float: right;
-    width: 45%;
+    margin 20%;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 }
 	
@@ -197,9 +199,9 @@ body {
 }
 
 .rightcolumn .card1 {
+  index-z: 0;
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
   width: 60%; /* Full width */
   padding: 20px; /* Some padding */
@@ -207,6 +209,7 @@ body {
 }
 
 .leftcolumn .card1 {
+  index-z: 0;
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
