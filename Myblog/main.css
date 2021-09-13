@@ -174,14 +174,12 @@ body {
     index-z: 1;
     float: left;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    margin 20%;
 }
 	
 	/* Right column */
 .rightcolumn {
     index-z: 2;
     float: right;
-    margin 20%;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 }
 	
@@ -203,7 +201,7 @@ body {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   color: #f1f1f1; /* Grey text */
-  width: 60%; /* Full width */
+  width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/sunday_waits_ep.jpg)
 }
@@ -214,7 +212,7 @@ body {
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 60%; /* Full width */
+  width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/aristocrats_trio.jpg)
 }
