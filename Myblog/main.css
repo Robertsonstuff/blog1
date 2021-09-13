@@ -179,12 +179,9 @@ body {
 .rightcolumn {
     float: right;
     width: 45%;
+    background-color: #f1f1f1;
 }
 	
-.row {
-    float: center;
-    width: 80%;
-}
 
 /* Add a card effect for articles */
 .card {
@@ -341,7 +338,7 @@ body {
 	
 	/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn, .pg, .music-container, .con container2, .card, .row  {
+    .leftcolumn, .rightcolumn {
  	width: 100%;
 	padding: 0;
   }
@@ -349,14 +346,14 @@ body {
 	
 	/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
-    .topnav a, .pg, .music-container, .con container2, .card, .row{
+    .topnav a, {
 	float: none;
 	width: 100%;
   }
 }
 
 /*blog posts*/
-.con container2{
+.container2 {
 	background: #ffffff;
 	border: 2px;
 	border-style: solid;
