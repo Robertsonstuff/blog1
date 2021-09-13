@@ -424,7 +424,7 @@ a:link {
 
 .img-container {
   position: relative;
-  width: 410px;
+  width: 70%;
 }
 
 .img-container::after {
