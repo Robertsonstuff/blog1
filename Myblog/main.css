@@ -202,7 +202,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/sunday_waits_ep.jpg style="width: 100;")
+  Background-image: url(images/sunday_waits_ep.jpg)
 }
 
 .leftcolumn .card1 {
@@ -211,14 +211,14 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/aristocrats_trio.jpg style="width: 100;")
+  Background-image: url(images/aristocrats_trio.jpg)
 }
 .rightcolumn .card2 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 60%; /* Full width */
+  width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/chartbusters_later.jpg)
 }
@@ -227,7 +227,7 @@ body {
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 60%; /* Full width */
+  width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/cassette.jpg)
 }
@@ -237,7 +237,7 @@ body {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 60%; /* Full width */
+  width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/herratik_album.jpg)
 }
@@ -247,7 +247,7 @@ body {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 60%; /* Full width */
+  width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/soundcloud_pic.jpg)
 }
@@ -257,7 +257,7 @@ body {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 60%; /* Full width */
+  width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/katie_whyte_ep.jpg)
 }
@@ -267,7 +267,7 @@ body {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 60%; /* Full width */
+  width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/fk_album2.jpg)
 }
@@ -277,7 +277,7 @@ body {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 60%; /* Full width */
+  width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/fk_ep2.jpg)
 }
@@ -287,7 +287,7 @@ body {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 60%; /* Full width */
+  width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/mcartney_v1.jpg)
 }
@@ -297,7 +297,7 @@ body {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 60%; /* Full width */
+  width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/foo_fighters.jpg)
 }
@@ -307,7 +307,7 @@ body {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 60%; /* Full width */
+  width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   Background-image: url(images/winter_sunderground__rjbIu.jpg)
 }
