@@ -199,26 +199,23 @@ body {
 .rightcolumn .card1 {
   index-z: 0;
   position: relative; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/sunday_waits_ep.jpg)
+  Background-image: url(images/sunday_waits_ep.jpg style="width: 100;")
 }
 
 .leftcolumn .card1 {
   index-z: 0;
   position: relative; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/aristocrats_trio.jpg)
+  Background-image: url(images/aristocrats_trio.jpg style="width: 100;")
 }
 .rightcolumn .card2 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
   width: 60%; /* Full width */
@@ -228,7 +225,6 @@ body {
 .leftcolumn .card2 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
   width: 60%; /* Full width */
