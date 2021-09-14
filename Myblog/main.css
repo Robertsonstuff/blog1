@@ -189,7 +189,7 @@ body {
   width: 100%; /* Full width */
 }
 
-.rightcolumn .card1 {
+.column .card1 {
   index-z: 0;
   position: relative; /* Position the background text */
   color: #f1f1f1; /* Grey text */
@@ -198,7 +198,7 @@ body {
   Background-image: url(images/sunday_waits_ep.jpg)
 }
 
-.leftcolumn .card1 {
+.column .card2 {
   index-z: 0;
   position: relative; /* Position the background text */
   color: #f1f1f1; /* Grey text */
@@ -206,7 +206,7 @@ body {
   padding: 20px; /* Some padding */
   Background-image: url(images/aristocrats_trio.jpg)
 }
-.rightcolumn .card2 {
+.column .card3 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
@@ -215,7 +215,7 @@ body {
   padding: 20px; /* Some padding */
   Background-image: url(images/chartbusters_later.jpg)
 }
-.leftcolumn .card2 {
+.column .card4 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
@@ -224,7 +224,7 @@ body {
   padding: 20px; /* Some padding */
   Background-image: url(images/cassette.jpg)
 }
-.rightcolumn .card3 {
+.column .card5 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
@@ -234,7 +234,7 @@ body {
   padding: 20px; /* Some padding */
   Background-image: url(images/herratik_album.jpg)
 }
-.leftcolumn .card3 {
+.column .card6 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
@@ -244,7 +244,7 @@ body {
   padding: 20px; /* Some padding */
   Background-image: url(images/soundcloud_pic.jpg)
 }
-.rightcolumn .card4 {
+.column .card7 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
@@ -254,7 +254,7 @@ body {
   padding: 20px; /* Some padding */
   Background-image: url(images/katie_whyte_ep.jpg)
 }
-.leftcolumn .card4 {
+.column .card8 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
@@ -264,7 +264,7 @@ body {
   padding: 20px; /* Some padding */
   Background-image: url(images/fk_album2.jpg)
 }
-.rightcolumn .card5 {
+.column .card9 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
@@ -274,7 +274,7 @@ body {
   padding: 20px; /* Some padding */
   Background-image: url(images/fk_ep2.jpg)
 }
-.leftcolumn .card5 {
+.column .card10 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
@@ -284,7 +284,7 @@ body {
   padding: 20px; /* Some padding */
   Background-image: url(images/mcartney_v1.jpg)
 }
-.rightcolumn .card6 {
+.column .card11 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
@@ -294,7 +294,7 @@ body {
   padding: 20px; /* Some padding */
   Background-image: url(images/foo_fighters.jpg)
 }
-.leftcolumn .card6 {
+.column .card12 {
   position: relative; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
