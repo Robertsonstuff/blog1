@@ -213,7 +213,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/chartbusters_later.jpg)
+  Background-image: url(images/cassette.jpg)
 }
 .column .card4 {
   position: relative; /* Position the background text */
@@ -222,7 +222,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/cassette.jpg)
+  Background-image: url(images/chartbusters_later.jpg)
 }
 .column .card5 {
   position: relative; /* Position the background text */
@@ -232,7 +232,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/herratik_album.jpg)
+  Background-image: url(images/soundcloud_pic.jpg)
 }
 .column .card6 {
   position: relative; /* Position the background text */
@@ -242,7 +242,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/soundcloud_pic.jpg)
+  Background-image: url(images/herratik_album.jpg)
 }
 .column .card7 {
   position: relative; /* Position the background text */
@@ -252,7 +252,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/katie_whyte_ep.jpg)
+  Background-image: url(images/fk_album2.jpg)
 }
 .column .card8 {
   position: relative; /* Position the background text */
@@ -262,7 +262,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/fk_album2.jpg)
+  Background-image: url(images/katie_whyte_ep.jpg)
 }
 .column .card9 {
   position: relative; /* Position the background text */
@@ -272,7 +272,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/fk_ep2.jpg)
+  Background-image: url(images/mcartney_v1.jpg)
 }
 .column .card10 {
   position: relative; /* Position the background text */
@@ -282,7 +282,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/mcartney_v1.jpg)
+  Background-image: url(images/fk_ep2.jpg)
 }
 .column .card11 {
   position: relative; /* Position the background text */
@@ -292,7 +292,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/foo_fighters.jpg)
+  Background-image: url(images/winter_sunderground__rjbIu.jpg)
 }
 .column .card12 {
   position: relative; /* Position the background text */
@@ -302,7 +302,7 @@ body {
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  Background-image: url(images/winter_sunderground__rjbIu.jpg)
+  Background-image: url(images/foo_fighters.jpg)
 }
 	/* Clear floats after the columns */
 .row:after {
