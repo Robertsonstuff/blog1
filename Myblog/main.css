@@ -170,17 +170,10 @@ body {
 	/* Left column */
 
 
-.leftcolumn {   
-    index-z: 2;
-    float: left;
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-}
-	
-	/* Right column */
-.rightcolumn {
-    index-z: 2;
-    float: right;
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
 }
 	
 
@@ -330,14 +323,17 @@ body {
     margin-top: 20px;
 }
 	
-	/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {
- 	width: 100%;
-	padding: 0;
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
 }
-	
+
 	/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
     .topnav a, {
