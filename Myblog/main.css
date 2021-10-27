@@ -46,7 +46,9 @@ body {
 	background-color: #050b33;
 	position:sticky;
 	top: 200px;
-	animation: href 2s ease-in
+	animation: href 2s ease-in;
+	z-index: 100;
+	opacity: 0.8;
 }
 
 @keyframes topnav {
@@ -191,7 +193,6 @@ body {
 }
 
 .column .card1 {
-  index-z: 0;
   position: relative; /* Position the background text */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
@@ -201,7 +202,6 @@ body {
 }
 
 .column .card2 {
-  index-z: 0;
   position: relative; /* Position the background text */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
@@ -345,6 +345,46 @@ body {
 	width: 100%;
   }
 }
+
+.expand-button {
+  display: block;
+  background: #ffffff;
+  border: 2px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: darkgrey;
+  box-shadow: 3px 10px 10px 3px rgba(0, 0, 0, 0.3);
+  margin-top: 15px;
+  padding: 20px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.expand-button::after {
+  background-color: white;
+  transform: scale(1.05);
+  content: '\1F817';
+  font-size: 28px;
+  float: right;
+}
+.expand-button--active + .content-expand { display:block;} 
+.expand-button--active::after {
+  content: '\1F815';
+  float: right;
+  background-color: white;
+  font-size: 28px;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content-expand {
+  display: none;
+  overflow: auto;
+  padding: 0 20px;
+
+}
+
 
 /*blog posts*/
 .container2 {
