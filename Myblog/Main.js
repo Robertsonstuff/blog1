@@ -1,3 +1,10 @@
+document.querySelectorAll(".expand-button").forEach(button => {
+    button.addEventListener('click', () => {
+        const ExpandContent = button.nextElementSibling;
+        button.classList.toggle('expand-button--active');
+    });
+});
+
 var slideIndex = 0;
 	showSlides();
 
