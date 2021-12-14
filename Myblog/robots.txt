@@ -1,2 +1,3 @@
+Sitemap: https://lukerobertsonblog.com/sitemap.xml
 User-agent: *
 Disallow:
