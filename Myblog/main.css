@@ -435,6 +435,7 @@ a:link {
     rgba(2, 4.3, 20, 1) 23.8%,
     rgba(2, 4.3, 20, 1) 92%
   );
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -449,7 +450,7 @@ a:link {
   border-radius: 15px;
   box-shadow: 0 20px 20px 0 rgba(181, 190, 248, 0.6);
   display: flex;
-  padding: 20%;
+  padding: 20px 30px;
   position: relative;
   margin: 100px 0;
   z-index: 10;
@@ -457,6 +458,7 @@ a:link {
 
 .img-container {
   position: relative;
+  width: 410px;
 }
 
 .img-container::after {
@@ -474,7 +476,8 @@ a:link {
 .img-container img {
   border-radius: 50%;
   object-fit: cover;
-  width: 50%;
+  height: 410px;
+  width: inherit;
   position: left;
   bottom: 0;
   left: 0;
@@ -524,7 +527,7 @@ a:link {
 }
 
 .music-info {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px 15px 0 0;
   position: absolute;
   top: 0;
@@ -533,7 +536,7 @@ a:link {
   padding: 10px 10px 10px 150px;
   opacity: 0;
   transform: translateY(0%);
-  transition: transform 0.6s ease-in, opacity 0.6s ease-in;
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
   z-index: 0;
 }
 
