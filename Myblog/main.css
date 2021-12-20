@@ -45,7 +45,7 @@ body {
     overflow: hidden;
 	background-color: #050b33;
 	position:sticky;
-	top: 200px;
+	top: 0;
 	animation: href 2s ease-in;
 	z-index: 100;
 	opacity: 0.8;
@@ -336,6 +336,9 @@ body {
     display: block;
     margin-bottom: 20px;
   }
+  .card > img {
+    display: none;
+    }
 }
 
 	/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
