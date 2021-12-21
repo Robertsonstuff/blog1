@@ -356,6 +356,7 @@ body {
     .Pg {
   height: 50vh;
 }
+}
 
 .expand-button {
   display: block;
@@ -395,7 +396,6 @@ body {
   padding: 0 20px;
 
 }
-
 
 /*blog posts*/
 .container2 {
