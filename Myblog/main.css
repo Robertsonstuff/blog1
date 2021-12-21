@@ -347,7 +347,7 @@ body {
     display: none;
     }
     .Pg {
-  height: 50%;
+  height: 200px;
     }
 }
 
@@ -358,7 +358,7 @@ body {
     width: 100vw;
   }
     .Pg {
-  height: 50%;
+  height: 200px;
 }
 }
 
