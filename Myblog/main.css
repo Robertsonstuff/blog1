@@ -310,17 +310,17 @@ body {
     display: none;
     }
     .container2 > #Pg > .music-container > .img-container {
-    width: 205px;
+    width: 102px;
     }
     .container2 > #Pg > .music-container > .img-container > img {
-    width: 205px;
-    height: 205px;
+    width: 102px;
+    height: 102px;
     }
     .row > #Pg > .music-container > .img-container {
-    width: 205px;
+    width: 102px;
     }
     .row > #Pg > .music-container > .img-container > img{
-    height: 205px;
+    height: 102px;
     }
     .container2 > #Pg {
   height: 50vh;
