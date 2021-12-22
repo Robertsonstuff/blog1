@@ -73,37 +73,7 @@ body {
     background-color: #ddd;
     color: black;
 }
-/* 
-.topnav1 {
-    overflow: hidden;
-	background-color: #050b33;
-	top: 100px;
-	animation: href 2s ease-in
-}
 
-@keyframes topnav1 {
-0% { transform: translateX(+300px); }
-70% { transform: translateX(-10px); }
-80% { transform: translateX(5px); }
-100% { transform: translateX(0px); }
-}
-	
-.topnav1 a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-	
-	
-.topnav1 a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-	Slide show */
 .slideshow-container {
 	max-width: 1000px;
 	position: relative;
@@ -346,7 +316,7 @@ body {
     .img-container {
     display: none;
     }
-    .Pg {
+    #Pg {
   height: 200px;
     }
 }
@@ -357,7 +327,7 @@ body {
     float: none;
     width: 100vw;
   }
-    .Pg {
+    #Pg {
   height: 200px;
 }
 }
@@ -440,7 +410,7 @@ a:link {
 /*music player*/
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-.Pg {
+#Pg {
   background-image: linear-gradient(
     0deg,
     rgba(2, 4.3, 20, 1) 23.8%,
