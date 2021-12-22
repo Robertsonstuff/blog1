@@ -297,7 +297,12 @@ body {
     margin-top: 20px;
 }
 	
-
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .music-container {
+  margin: 40%;
+    }
+}
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
@@ -320,7 +325,7 @@ body {
   height: 200px;
     }
     .music-container {
-  margin: 30%;
+  margin: 50%;
     }
 }
 
@@ -333,6 +338,9 @@ body {
     #Pg {
   height: 200px;
 }
+    .music-container {
+  margin: 20%;
+    }
 }
 
 .expand-button {
