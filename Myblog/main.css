@@ -318,13 +318,13 @@ body {
     .card > img {
     display: none;
     }
-    .con container2 > #Pg > .music-container > .img-container {
+    .container2 > #Pg > .music-container > .img-container {
     display: none;
     }
-    .con container2 > #Pg {
+    .container2 > #Pg {
   height: 200px;
     }
-    .con container2 > #Pg > .music-container {
+    .container2 > #Pg > .music-container {
   display: none;
     }
 }
