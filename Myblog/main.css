@@ -305,7 +305,7 @@ body {
 }
 */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .topnav a, {
     float: none;
     vw: 100;
@@ -328,6 +328,9 @@ body {
   display: none;
     }
     .row > #Pg > .music-container {
+  display: none;
+    }
+    .row > #Pg > .music-container > .img-container {
   display: none;
     }
 }
