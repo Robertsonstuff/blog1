@@ -61,7 +61,7 @@ body {
 	/* Style the topnav links */
 .topnav a {
 	float: center;
-	display: block;
+	display: inline;
 	color: #f2f2f2;
 	text-align: center;
 	padding: 5px;
