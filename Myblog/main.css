@@ -299,7 +299,7 @@ body {
 
 @media screen and (max-width: 800px) {
     .topnav a, {
-    float: none;
+    float: clear;
     width: 100vw;
   }
     .column {
@@ -322,10 +322,15 @@ body {
     }*/
     .container2 > #Pg > .music-container > .img-container {
     width: 205px;
+    }
+    .container2 > #Pg > .music-container > .img-container > img {
+    width: 205px;
     height: 205px;
     }
     .row > #Pg > .music-container > .img-container {
     width: 205px;
+    }
+    .row > #Pg > .music-container > .img-container > img{
     height: 205px;
     }
     .container2 > #Pg {
