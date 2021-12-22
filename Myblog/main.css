@@ -298,7 +298,7 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-    .topnav a, {
+    .topnav {
     float: clear;
     width: 100vw;
   }
@@ -310,16 +310,6 @@ body {
     .card > img {
     display: none;
     }
-	/*
-    .container2 > #Pg > .music-container {
-  display: none;
-    }
-    .row > #Pg > .music-container {
-  display: none;
-    }
-    .row > #Pg > .music-container > .img-container {
-  display: none;
-    }*/
     .container2 > #Pg > .music-container > .img-container {
     width: 205px;
     }
@@ -338,6 +328,12 @@ body {
 }
     .row > #Pg {
   height: 50vh;
+    }
+    .container2 > #Pg > h1 {
+  display: none;
+}
+    .row > #Pg > h1 {
+  display: none;
     }
 }
 
@@ -453,7 +449,7 @@ a:link {
   display: flex;
   padding: 20px 30px;
   position: relative;
-  margin: 100px 0;
+  margin: 50px 0;
   z-index: 10;
 }
 
