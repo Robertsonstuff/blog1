@@ -321,10 +321,10 @@ body {
     .img-container {
     display: none;
     }
-    #Pg {
+    .con container2 > #Pg {
   height: 200px;
     }
-    .music-container {
+    .con container2 > #Pg > .music-container {
   display: none;
     }
 }
