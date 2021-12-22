@@ -322,9 +322,11 @@ body {
     }*/
     .container2 > #Pg > .music-container > .img-container {
     width: 205px;
+    height: 205px;
     }
     .row > #Pg > .music-container > .img-container {
-    width: 205px;  
+    width: 205px;
+    height: 205px;
     }
     .container2 > #Pg {
   height: 50vh;
