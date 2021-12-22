@@ -322,10 +322,14 @@ body {
     display: none;
     }
     .container2 > #Pg {
-  height: 200px;
+  height: 50vh;
+}
     }
     .container2 > #Pg > .music-container {
   display: none;
+    }
+    .row > #Pg {
+  height: 50vh;
     }
     .row > #Pg > .music-container {
   display: none;
