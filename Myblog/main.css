@@ -311,25 +311,27 @@ body {
     display: none;
     }
 	/*
-    .container2 > #Pg > .music-container > .img-container {
-    display: none;
-    }*/
-    .container2 > #Pg {
-  height: 50vh;
-}
-    /*
     .container2 > #Pg > .music-container {
   display: none;
-    }*/
-    .row > #Pg {
-  height: 50vh;
-    }/*
+    }
     .row > #Pg > .music-container {
   display: none;
     }
     .row > #Pg > .music-container > .img-container {
   display: none;
     }*/
+    .container2 > #Pg > .music-container > .img-container {
+    width: 205px;
+    }
+    .row > #Pg > .music-container > .img-container {
+    width: 205px;  
+    }
+    .container2 > #Pg {
+  height: 50vh;
+}
+    .row > #Pg {
+  height: 50vh;
+    }
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
