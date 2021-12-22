@@ -296,19 +296,11 @@ body {
     background: #ddd;
     margin-top: 20px;
 }
-	
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other 
-@media screen and (max-width: 800px) {
-    .music-container {
-  display: none;
-    }
-}
-*/
 
 @media screen and (max-width: 800px) {
     .topnav a, {
     float: none;
-    vw: 100;
+    width: 100vw;
   }
     .column {
     width: 100%;
@@ -325,7 +317,7 @@ body {
     .container2 > #Pg {
   height: 50vh;
 }
-    }/*
+    /*
     .container2 > #Pg > .music-container {
   display: none;
     }*/
