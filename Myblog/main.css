@@ -353,6 +353,15 @@ body {
     #Pg {
   height: 200px;
   }
+    .row > #Pg > .music-container > .navigation {
+    display: block;
+    }
+    .row > #Pg > .music-container > .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
     .container2 > #Pg > .music-container > .navigation {
     display: block;
     }
