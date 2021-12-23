@@ -353,6 +353,12 @@ body {
     #Pg {
   height: 200px;
   }
+    .container2 > #Pg > .music-container {
+  margin: 50px;
+}
+    .row > #Pg > .music-container{
+  margin: 50px;
+    }
 }
 
 .expand-button {
