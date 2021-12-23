@@ -325,7 +325,7 @@ body {
     .row > #Pg > .music-container > .img-container {
     width: 102px;
     }
-    .row > #Pg > .music-container > .img-container > img{
+    .row > #Pg > .music-container > .img-container > img {
     height: 102px;
     }
     .container2 > #Pg {
@@ -355,6 +355,10 @@ body {
   }
     .row > #Pg > .music-container > .navigation {
     display: block;
+    }
+    .row > #Pg > .music-container > .navigation > #prev.action-button, #next.action-button {
+    font-size: 10px;
+    padding: 0;
     }
     .row > #Pg > .music-container > .img-container {
     display: flex;
