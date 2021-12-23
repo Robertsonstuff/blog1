@@ -297,7 +297,13 @@ body {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 800px) {
+
+/* Responsive layout - >1024 <1023 ipad <768 phone <478 phone*/
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
     .topnav > a {
     float: center;
   }
@@ -336,14 +342,17 @@ body {
     }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+/* Responsive layout - when the screen is less than 400px wide, >1024
+<1023 ipad
+<768 phone
+<478 phone*/
+@media screen and (max-width: 478px) {
    .topnav > a {
     float: center;
   }
     #Pg {
   height: 200px;
-}
+  }
 }
 
 .expand-button {
