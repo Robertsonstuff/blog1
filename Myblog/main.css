@@ -355,10 +355,10 @@ body {
   }
     .row > #Pg > .music-container > .navigation {
     display: block;
+    margin: 10%;
     }
-    .row > #Pg > .music-container > .navigation > #prev.action-button, #next.action-button {
-    font-size: 10px;
-    padding: 0;
+    .row > #Pg > .music-container {
+    margin: 20%;
     }
     .row > #Pg > .music-container > .img-container {
     display: flex;
