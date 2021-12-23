@@ -353,9 +353,6 @@ body {
     #Pg {
   height: 200px;
   }
-    .row > #Pg > .music-container > .navigation {
-    display: block;
-    }
     .container2 > #Pg > .music-container > .navigation {
     display: block;
     }
