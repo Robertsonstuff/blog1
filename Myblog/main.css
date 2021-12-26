@@ -396,13 +396,13 @@ body {
 .expand-button::after {
   background-color: white;
   transform: scale(1.05);
-  content: '\1F817';
+ */ content: '\1F817';*/
   font-size: 28px;
   float: right;
 }
 .expand-button--active + .content-expand { display:block;} 
 .expand-button--active::after {
-  content: '\1F815';
+ */ content: '\1F815';*/
   float: right;
   background-color: white;
   font-size: 28px;
