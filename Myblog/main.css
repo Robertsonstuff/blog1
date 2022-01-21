@@ -430,8 +430,9 @@ li {
 
 }
 
-.content .contentexpand .img {
+.content .content-expand .img {
   width: 400px;
+  display: flex;
 }
 
 /*blog posts*/
