@@ -430,6 +430,10 @@ li {
 
 }
 
+.content .contentexpand .img {
+  width: 400px;
+}
+
 /*blog posts*/
 .container2 {
 	background: #ffffff;
