@@ -430,9 +430,11 @@ li {
 
 }
 
-.content .content-expand .img {
-  width: 400px;
+.content-expand .img {
+  width: 300px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*blog posts*/
