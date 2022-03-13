@@ -159,14 +159,14 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding 15px 5px;
+  padding 30px 15px;
 }
 
 .row > .rightcolumn > .card {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding 15px 5px;
+  padding 30px 15px;
 }
 
 .column {
