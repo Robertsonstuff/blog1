@@ -155,9 +155,9 @@ li {
 	/* Create two unequal columns that floats next to each other */
 	/* Left column */
 
-.row .leftcolumn .card {
+.row > .leftcolumn > .card {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
