@@ -159,6 +159,14 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding 15px 5px;
+}
+
+.row > .rightcolumn > .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding 15px 5px;
 }
 
 .column {
