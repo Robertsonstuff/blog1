@@ -162,10 +162,17 @@ li {
   padding 30px 15px;
 }
 
+.row > .leftcolumn > .card > p {
+  padding 30px 15px;
+}
+
 .row > .rightcolumn > .card {
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+.row > .rightcolumn > .card > p {
   padding 30px 15px;
 }
 
