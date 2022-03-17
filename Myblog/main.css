@@ -332,7 +332,7 @@ li {
 }
 
 .Top10 {
-  display: none;
+  float: center;
   overflow: auto;
   padding: 0 20px;
 
