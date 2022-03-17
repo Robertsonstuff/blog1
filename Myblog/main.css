@@ -332,10 +332,10 @@ li {
 }
 
 .top10 {
-    display: block;
-    flex-direction: column;
+    display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
 }
 
