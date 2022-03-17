@@ -331,6 +331,12 @@ li {
     margin-top: 20px;
 }
 
+.Top10 {
+  display: none;
+  overflow: auto;
+  padding: 0 20px;
+
+}
 
 /* Responsive layout - >1024 <1023 ipad <768 phone <478 phone*/
 @media screen and (min-width: 1024px) {
